@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josué Jair Pelagio Monroy - Desarrollador Web Full Stack</title>
+    <meta name="description" content="Desarrollador web full stack especializado en React, Node.js, Python y tecnologías modernas. Creando soluciones digitales innovadoras.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Josué Jair Pelagio Monroy</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link" data-translate="nav.home">Inicio</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav.about">Sobre Mí</a></li>
+                <li><a href="#habilidades" class="nav-link" data-translate="nav.skills">Habilidades</a></li>
+                <li><a href="#portfolio" class="nav-link" data-translate="nav.portfolio">Portfolio</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-translate="hero.title">Hola, soy</span> <span class="highlight">Josué Jair Pelagio Monroy</span>
+                </h1>
+                <h2 class="hero-subtitle" data-translate="hero.subtitle">Desarrollador Web Full Stack</h2>
+                <p class="hero-description" data-translate="hero.description">
+                    Desarrollador apasionado por crear soluciones web innovadoras. 
+                    Especializado en React, Node.js, Python y tecnologías modernas. 
+                    Transformo ideas en aplicaciones web robustas y escalables.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary" data-translate="hero.button1">Ver mi trabajo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="Foto Traje.png" alt="Josué Jair Pelagio Monroy - Desarrollador Web" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-translate="portfolio.title">
+                <i class="fas fa-briefcase"></i> Mi Portfolio
+            </h2>
+            <div class="portfolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-preview">
+                        <img src="proyecto Kontraste.png" alt="Vista previa de Kontraste.com.mx" loading="lazy" decoding="async">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Desarrollo y Estrategia para Kontraste</h3>
+                        <p>Colaboración integral en el desarrollo del sitio web y la estrategia de marketing digital para Kontraste. El proyecto abarcó desde el diseño y la implementación de la plataforma hasta la ejecución de campañas para potenciar su presencia en línea.</p>
+                        <div class="portfolio-tech">
+                            <span>Desarrollo Web</span>
+                            <span>Marketing Digital</span>
+                            <span>SEO</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <a href="https://kontraste.com.mx" target="_blank" class="portfolio-link">Visitar Sitio Web</a>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-preview">
+                        <img src="hackathon Google.png" alt="Vista previa del proyecto Hackathon Google" loading="lazy" decoding="async">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Proyecto Hackathon Google</h3>
+                        <p>Solución innovadora desarrollada para el Hackathon de Google, demostrando habilidades en desarrollo rápido, integración de APIs y resolución de problemas bajo presión en un entorno competitivo.</p>
+                        <div class="portfolio-tech">
+                            <span>JavaScript</span>
+                            <span>APIs</span>
+                            <span>HTML5/CSS3</span>
+                        </div>
+                        <a href="https://prueba-delta-cyan.vercel.app/prueba.html" target="_blank" class="portfolio-link">Ver Proyecto</a>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image-preview">
+                        <img src="sistemas de sequias.png" alt="Vista previa del Sistema de Predicción de Sequía" loading="lazy" decoding="async">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Sistema de Predicción de Sequía</h3>
+                        <p>Proyecto académico que implementa un modelo de Machine Learning para predecir condiciones de sequía. La plataforma web permite visualizar las predicciones y analizar datos para la toma de decisiones informadas.</p>
+                        <div class="portfolio-tech">
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <a href="https://sistema-prediccion-sequia-production.up.railway.app" target="_blank" class="portfolio-link">Ver Aplicación</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-translate="skills.frontend">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-sass"></i>
+                            <span>SASS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skills.backend">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skills.tools">Herramientas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title" aria-expanded="true">
+                Sobre Mí <i class="fas fa-chevron-down about-toggle-icon"></i>
+            </h2>
+            <div class="about-content">
+                <div class="about-collapsible-content">
+                    <div class="about-text">
+                        <p data-translate="about.description1"></p>
+                        <p data-translate="about.description2"></p>
+                    </div>
+                </div>
+                <!-- Las estadísticas de "Sobre Mí" no se incluyeron en esta solicitud. -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/josue-monroy-758a2a2a1/" target="_blank" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/josue.monroy.5680/" target="_blank" class="footer-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/JosueJa1r" target="_blank" class="footer-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://drive.google.com/drive/folders/1u-eVQprvzrSDEJh6n1o5eQMCHk79Bc_d?usp=drive_link" target="_blank" class="footer-social-link" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a>
+            </div>
+            <p>&copy; 2025 Josué Jair Pelagio Monroy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5634623584?text=Hola%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20contactarte." class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¿Hablemos de tu proyecto?</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

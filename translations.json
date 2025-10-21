@@ -1,0 +1,114 @@
+{
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre Mí",
+      "skills": "Habilidades",
+      "portfolio": "Portfolio"
+    },
+    "hero": {
+      "title": "Hola, soy",
+      "subtitle": "Desarrollador Web Full Stack",
+      "description": "Desarrollador apasionado por crear soluciones web innovadoras. Especializado en React, Node.js, Python y tecnologías modernas. Transformo ideas en aplicaciones web robustas y escalables.",
+      "button1": "Ver mi trabajo"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "description1": "Soy Josué Jair Pelagio Monroy, un desarrollador web full stack con una trayectoria única. Tras dedicar 5 años de mi vida al servicio como soldado de transmisiones, donde cultivé disciplina, resiliencia y una gran capacidad de resolución de problemas, decidí dar un giro drástico a mi carrera. Esta experiencia me brindó una base sólida para enfrentar nuevos desafíos.",
+      "description2": "Actualmente, estoy inmerso en el apasionante mundo de la tecnología, estudiando Ingeniería en Sistemas Computacionales y la Licenciatura en Ciencia de Datos. Mi objetivo es fusionar mi experiencia militar con mis conocimientos técnicos para crear soluciones innovadoras y eficientes, transformando datos en estrategias y sistemas robustos."
+    },
+    "skills": {
+      "title": "Habilidades Técnicas",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas"
+    },
+    "portfolio": {
+      "title": "Mi Portfolio",
+      "project1": {
+        "title": "Mi Portafolio Web",
+        "description": "Página web personal desarrollada con HTML, CSS y JavaScript. Diseño responsivo y moderno para mostrar mis proyectos y habilidades como desarrollador."
+      },
+      "project2": {
+        "title": "Juego Secreto",
+        "description": "Juego interactivo desarrollado con JavaScript donde los usuarios deben adivinar un número secreto. Incluye validaciones, contador de intentos y feedback visual."
+      },
+      "project3": {
+        "title": "Sistema de Registro",
+        "description": "Aplicación web para gestión de usuarios con sistema de registro, validación de formularios y almacenamiento de datos. Proyecto desarrollado como parte del curso de Alura."
+      },
+      "project4": {
+        "title": "Amigo Secreto",
+        "description": "Aplicación para organizar el juego de amigo secreto. Permite agregar participantes, asignar parejas aleatoriamente y gestionar el intercambio de regalos."
+      },
+      "project5": {
+        "title": "Gestión de Negocio",
+        "description": "Sistema web para gestión empresarial con funcionalidades de administración, seguimiento de proyectos y control de recursos empresariales."
+      },
+      "project6": {
+        "title": "Portafolio Personal",
+        "description": "Primera versión de mi portafolio web desarrollado con HTML y CSS. Muestra mis primeros proyectos y habilidades en desarrollo web."
+      },
+      "viewProject": "Ver en GitHub"
+    },
+    "footer": {
+      "copyright": "Todos los derechos reservados."
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "skills": "Skills",
+      "portfolio": "Portfolio"
+    },
+    "hero": {
+      "title": "Hello, I'm",
+      "subtitle": "Full Stack Web Developer",
+      "description": "Passionate developer creating innovative web solutions. Specialized in React, Node.js, Python and modern technologies. I transform ideas into robust and scalable web applications.",
+      "button1": "View my work"
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "I'm Josué Jair Pelagio Monroy, a full stack web developer with a unique background. After dedicating 5 years of my life to serving as a transmission soldier, where I cultivated discipline, resilience, and strong problem-solving skills, I decided to make a drastic career change. This experience provided me with a solid foundation to face new challenges.",
+      "description2": "Currently, I am immersed in the exciting world of technology, studying Computer Systems Engineering and a Bachelor's degree in Data Science. My goal is to merge my military experience with my technical knowledge to create innovative and efficient solutions, transforming data into strategies and robust systems."
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "portfolio": {
+      "title": "My Portfolio",
+      "project1": {
+        "title": "My Web Portfolio",
+        "description": "Personal website developed with HTML, CSS and JavaScript. Responsive and modern design to showcase my projects and skills as a developer."
+      },
+      "project2": {
+        "title": "Secret Game",
+        "description": "Interactive game developed with JavaScript where users must guess a secret number. Includes validations, attempt counter and visual feedback."
+      },
+      "project3": {
+        "title": "Registration System",
+        "description": "Web application for user management with registration system, form validation and data storage. Project developed as part of the Alura course."
+      },
+      "project4": {
+        "title": "Secret Friend",
+        "description": "Application to organize the secret friend game. Allows adding participants, randomly assigning pairs and managing gift exchange."
+      },
+      "project5": {
+        "title": "Business Management",
+        "description": "Web system for business management with administration features, project tracking and business resource control."
+      },
+      "project6": {
+        "title": "Personal Portfolio",
+        "description": "First version of my web portfolio developed with HTML and CSS. Shows my first projects and skills in web development."
+      },
+      "viewProject": "View on GitHub"
+    },
+    "footer": {
+      "copyright": "All rights reserved."
+    }
+  }
+}
