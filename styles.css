@@ -438,11 +438,11 @@ body {
 
 /* Skills Section */
 .skills {
-    padding: 6rem 0;
+    padding: 3rem 0; /* Reducido para mejor flujo */
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     border-radius: 20px;
-    margin: 2rem 0;
+    margin: 1rem 0; /* Reducido para mejor flujo */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
@@ -514,11 +514,11 @@ body {
 
 /* Portfolio Section */
 .portfolio {
-    padding: 6rem 0;
+    padding: 3rem 0; /* Reducido para mejor flujo */
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     border-radius: 20px;
-    margin: 2rem 0;
+    margin: 1rem 0; /* Reducido para mejor flujo */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
