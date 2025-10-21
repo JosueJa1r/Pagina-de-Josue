@@ -895,6 +895,12 @@ body {
         gap: 1rem;
     }
 
+    .about {
+        /* Reduce el espaciado en móviles para asegurar la visibilidad */
+        padding: 3rem 0;
+        margin: 1rem 0;
+    }
+
     .skills-grid {
         grid-template-columns: 1fr;
     }
