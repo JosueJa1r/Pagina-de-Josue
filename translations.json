@@ -14,8 +14,8 @@
     },
     "about": {
       "title": "Sobre Mí",
-      "description1": "Soy Josué Jair Pelagio Monroy, un desarrollador web full stack con una trayectoria única. Tras dedicar 5 años de mi vida al servicio como soldado de transmisiones, donde cultivé disciplina, resiliencia y una gran capacidad de resolución de problemas, decidí dar un giro drástico a mi carrera. Esta experiencia me brindó una base sólida para enfrentar nuevos desafíos.",
-      "description2": "Actualmente, estoy inmerso en el apasionante mundo de la tecnología, estudiando Ingeniería en Sistemas Computacionales y la Licenciatura en Ciencia de Datos. Mi objetivo es fusionar mi experiencia militar con mis conocimientos técnicos para crear soluciones innovadoras y eficientes, transformando datos en estrategias y sistemas robustos."
+      "description1": "Mi carrera se rige por un principio fundamental: la fiabilidad y la eficiencia son innegociables. Forjé una base de rigor y disciplina durante cinco años en el ejército como Especialista en Telecomunicaciones, donde la integridad de los sistemas críticos era mi responsabilidad diaria. Esta experiencia me impulsó a redirigir mi enfoque hacia el epicentro de la innovación moderna: el desarrollo de software y la ciencia de datos.",
+      "description2": "Entiendo que las soluciones tecnológicas más impactantes nacen de la sinergia entre una arquitectura robusta y una profunda inteligencia analítica. Por ello, he elegido un camino académico dual, cursando simultáneamente Ingeniería en Sistemas Computacionales y la Licenciatura en Ciencia de Datos para Negocios. Esta formación integral me capacita no solo para construir el 'cómo' —la arquitectura del software—, sino también para definir el 'porqué': el valor estratégico extraído de los datos."
     },
     "skills": {
       "title": "Habilidades Técnicas",
@@ -51,6 +51,9 @@
       },
       "viewProject": "Ver en GitHub"
     },
+    "social": {
+      "title": "Conecta Conmigo"
+    },
     "footer": {
       "copyright": "Todos los derechos reservados."
     }
@@ -70,8 +73,8 @@
     },
     "about": {
       "title": "About Me",
-      "description1": "I'm Josué Jair Pelagio Monroy, a full stack web developer with a unique background. After dedicating 5 years of my life to serving as a transmission soldier, where I cultivated discipline, resilience, and strong problem-solving skills, I decided to make a drastic career change. This experience provided me with a solid foundation to face new challenges.",
-      "description2": "Currently, I am immersed in the exciting world of technology, studying Computer Systems Engineering and a Bachelor's degree in Data Science. My goal is to merge my military experience with my technical knowledge to create innovative and efficient solutions, transforming data into strategies and robust systems."
+      "description1": "My career is guided by a fundamental principle: reliability and efficiency are non-negotiable. I forged a foundation of rigor and discipline during five years in the army as a Telecommunications Specialist, where the integrity of critical systems was my daily responsibility. This experience drove me to redirect my focus to the epicenter of modern innovation: software development and data science.",
+      "description2": "I understand that the most impactful technological solutions arise from the synergy between robust architecture and deep analytical intelligence. Therefore, I have chosen a dual academic path, simultaneously pursuing a degree in Computer Systems Engineering and a Bachelor's in Data Science for Business. This comprehensive training equips me not only to build the 'how'—the software architecture—but also to define the 'why': the strategic value extracted from data."
     },
     "skills": {
       "title": "Technical Skills",
@@ -106,6 +109,9 @@
         "description": "First version of my web portfolio developed with HTML and CSS. Shows my first projects and skills in web development."
       },
       "viewProject": "View on GitHub"
+    },
+    "social": {
+      "title": "Connect With Me"
     },
     "footer": {
       "copyright": "All rights reserved."

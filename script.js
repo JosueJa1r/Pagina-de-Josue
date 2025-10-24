@@ -136,19 +136,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// About section collapsible logic
-const aboutSectionTitle = document.querySelector('#about .section-title');
-const aboutToggleIcon = document.querySelector('.about-toggle-icon');
-const aboutCollapsibleContent = document.querySelector('.about-collapsible-content');
-
-if (aboutSectionTitle && aboutToggleIcon && aboutCollapsibleContent) {
-    aboutSectionTitle.addEventListener('click', () => {
-        const isCollapsed = aboutCollapsibleContent.classList.toggle('collapsed');
-        aboutToggleIcon.classList.toggle('rotated');
-        aboutSectionTitle.setAttribute('aria-expanded', !isCollapsed);
-    });
-}
-
 // Skills animation on scroll
 const skillItems = document.querySelectorAll('.skill-item');
 const skillObserver = new IntersectionObserver((entries) => {
