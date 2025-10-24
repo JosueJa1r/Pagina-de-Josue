@@ -23,6 +23,37 @@ body {
     padding: 0 20px;
 }
 
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0B172A; /* Mismo color que el fondo base */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+#preloader.preloader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #38bdf8; /* Color de acento */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
 /* Header */
 .header {
     position: fixed;
@@ -416,27 +447,61 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-.skills-grid {
+.skills-tabs {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.skill-tab-btn {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid transparent;
+    color: #e5e7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.skill-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #38bdf8;
+}
+
+.skill-tab-btn.active {
+    background: #0ea5e9;
+    color: white;
+    border-color: #0ea5e9;
+}
+
+.skills-content {
+    position: relative;
 }
 
 .skill-category {
     background: rgba(255, 255, 255, 0.05);
     padding: 2rem;
     border-radius: 12px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    flex: 1 1 300px; /* Permite que los contenedores crezcan y se encojan */
+    display: none; /* Oculto por defecto */
+    animation: fadeIn 0.5s ease;
 }
 
-.skill-category:hover {
-    transform: translateY(-5px);
+.skill-category.active {
+    display: block; /* Visible cuando está activo */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .skill-category h3 {
+    display: none; /* Ocultamos los títulos h3 ya que ahora están en las pestañas */
+}
+
+.skill-category h3.visible-on-mobile {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -883,9 +948,18 @@ body {
         margin: 1rem 0;
     }
 
-    .skills-grid {
-        display: flex;
-        flex-direction: column;
+    .skills-tabs {
+        display: none; /* Ocultar pestañas en móvil */
+    }
+
+    .skill-category {
+        display: block; /* Mostrar todas las categorías en móvil */
+        margin-bottom: 2rem;
+    }
+
+    .skill-category h3 {
+        display: block; /* Mostrar títulos de categoría en móvil */
+        text-align: center;
     }
 
     .skill-items {

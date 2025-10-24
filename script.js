@@ -136,6 +136,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Skills tab system
+const skillTabs = document.querySelector('.skills-tabs');
+const skillCategories = document.querySelectorAll('.skill-category');
+
+if (skillTabs) {
+    skillTabs.addEventListener('click', (e) => {
+        if (e.target.classList.contains('skill-tab-btn')) {
+            const targetId = e.target.dataset.target;
+
+            // Update button active state
+            skillTabs.querySelectorAll('.skill-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            e.target.classList.add('active');
+
+            // Update content active state
+            skillCategories.forEach(category => {
+                category.classList.remove('active');
+                if (category.id === targetId) {
+                    category.classList.add('active');
+                }
+            });
+        }
+    });
+}
+
 // Skills animation on scroll
 const skillItems = document.querySelectorAll('.skill-item');
 const skillObserver = new IntersectionObserver((entries) => {
@@ -211,24 +237,13 @@ activeStyle.textContent = `
 `;
 document.head.appendChild(activeStyle);
 
-// Loading animation
+// Preloader
 window.addEventListener('load', () => {
-    document.body.classList.add('loaded');
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.classList.add('preloader-hidden');
+    }
 });
-
-// Add loading styles
-const loadingStyle = document.createElement('style');
-loadingStyle.textContent = `
-    body {
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    
-    body.loaded {
-        opacity: 1;
-    }
-`;
-document.head.appendChild(loadingStyle);
 
 // Smooth reveal animation for elements
 const revealObserver = new IntersectionObserver((entries) => {

@@ -10,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <nav class="nav">
@@ -124,8 +129,13 @@
     <section id="habilidades" class="skills">
         <div class="container">
             <h2 class="section-title" data-translate="skills.title">Habilidades Técnicas</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
+            <div class="skills-tabs">
+                <button class="skill-tab-btn active" data-target="frontend" data-translate="skills.frontend">Frontend</button>
+                <button class="skill-tab-btn" data-target="backend" data-translate="skills.backend">Backend</button>
+                <button class="skill-tab-btn" data-target="tools" data-translate="skills.tools">Herramientas</button>
+            </div>
+            <div class="skills-content">
+                <div id="frontend" class="skill-category active">
                     <h3 data-translate="skills.frontend">Frontend</h3>
                     <div class="skill-items">
                         <div class="skill-item">
@@ -154,7 +164,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skill-category">
+                <div id="backend" class="skill-category">
                     <h3 data-translate="skills.backend">Backend</h3>
                     <div class="skill-items">
                         <div class="skill-item">
@@ -183,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skill-category">
+                <div id="tools" class="skill-category">
                     <h3 data-translate="skills.tools">Herramientas</h3>
                     <div class="skill-items">
                         <div class="skill-item">
