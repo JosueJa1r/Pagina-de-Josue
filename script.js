@@ -202,6 +202,35 @@ portfolioItems.forEach(item => {
     });
 });
 
+// Contact Form Submission
+const contactForm = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // --- ¡IMPORTANTE! Reemplaza este número con tu número de WhatsApp ---
+        // Formato: [Código de país][Código de área][Número], sin '+' o espacios.
+        const phoneNumber = '+525634623584'; 
+        // --------------------------------------------------------------------
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        const whatsappMessage = `Hola, te contacto desde tu portafolio.\n\n*Nombre:* ${name}\n*Correo:* ${email}\n\n*Mensaje:*\n${message}`;
+
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+        // Abre WhatsApp en una nueva pestaña
+        window.open(whatsappURL, '_blank');
+
+        // Limpia el formulario después de intentar enviar
+        contactForm.reset();
+    });
+}
+
 // Active navigation link highlighting
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section[id]');

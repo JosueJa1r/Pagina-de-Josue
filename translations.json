@@ -54,6 +54,19 @@
     "social": {
       "title": "Conecta Conmigo"
     },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Ponte en Contacto",
+      "description": "¿Tienes alguna pregunta, propuesta o simplemente quieres saludar? No dudes en enviarme un mensaje. Estoy disponible para oportunidades freelance y colaboraciones en proyectos interesantes.",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "message": "Tu mensaje",
+        "submit": "Enviar Mensaje"
+      },
+      "successMessage": "¡Gracias! Tu mensaje ha sido enviado.",
+      "errorMessage": "Hubo un error. Por favor, inténtalo de nuevo."
+    },
     "footer": {
       "copyright": "Todos los derechos reservados."
     }
@@ -112,6 +125,19 @@
     },
     "social": {
       "title": "Connect With Me"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in Touch",
+      "description": "Have a question, a proposal, or just want to say hello? Feel free to send me a message. I'm available for freelance opportunities and collaborations on interesting projects.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Your message",
+        "submit": "Send Message"
+      },
+      "successMessage": "Thank you! Your message has been sent.",
+      "errorMessage": "There was an error. Please try again."
     },
     "footer": {
       "copyright": "All rights reserved."
